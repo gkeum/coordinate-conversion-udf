@@ -10,11 +10,16 @@ Package of two functions:
 Requirements:
 - java 17
 - maven 3.9.7+
+
 Run following to regenerate target folder:
-```mvn clean package```
+```
+mvn clean package
+```
 
 If you want to skip unit tests:
-```mvn clean package -DskipTests```
+```
+mvn clean package -DskipTests
+```
 
 ## Deploy
 Copy the coordinate-conversion-function-{version} folder from target directory in your Trino plugin directory and restart Trino server.
