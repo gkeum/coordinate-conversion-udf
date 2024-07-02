@@ -13,12 +13,12 @@ Requirements:
 
 Run following to regenerate target folder:
 ```
-mvn clean package
+mvn clean install
 ```
 
 If you want to skip unit tests:
 ```
-mvn clean package -DskipTests
+mvn clean install -DskipTests
 ```
 
 ## Deploy
