@@ -3,8 +3,8 @@ Starburst user defined function to convert between MGRS and Latitude/Longitude v
 
 ## Introduction
 Package of two functions: 
-- mgrs_to_latlong('<sample_mgrs>'): converts from MGRS (string/varchar) to Latitude/Longitude (string/varchar with delimiter)
-- latlong_to_mgrs(<sample_latitude>, <sample_longitude>): converts from Latitude/Longitude (double) to MGRS (string)
+- ```mgrs_to_latlong('<sample_mgrs>')```: converts from MGRS (string/varchar) to Latitude/Longitude (string/varchar with delimiter)
+- ```latlong_to_mgrs(<sample_latitude>, <sample_longitude>)```: converts from Latitude/Longitude (double) to MGRS (string)
 
 ## Build
 Requirements:
