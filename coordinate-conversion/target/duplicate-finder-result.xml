@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<duplicate-finder-result version="1">
+    <project artifactId="coordinate-conversion-function" groupId="io.trino" version="435" type="trino-plugin"/>
+    <configuration skip="false" checkCompileClasspath="true" checkRuntimeClasspath="true" checkTestClasspath="true" failBuildInCaseOfDifferentContentConflict="false" failBuildInCaseOfEqualContentConflict="false" failBuildInCaseOfConflict="true" printEqualFiles="false" preferLocal="true" includePomProjects="false" useDefaultResourceIgnoreList="true" useDefaultClassIgnoreList="true" useResultFile="true" resultFileMinClasspathCount="2" resultFile="C:\Users\GregOh\OneDrive - Kubrick Group\Desktop\VZ\coordinate-conversion\target\duplicate-finder-result.xml">
+        <ignoredResourcePatterns>
+            <ignoredResourcePattern>.*\.html</ignoredResourcePattern>
+            <ignoredResourcePattern>META-INF/.*</ignoredResourcePattern>
+            <ignoredResourcePattern>about_files/.*</ignoredResourcePattern>
+            <ignoredResourcePattern>plugin\.properties</ignoredResourcePattern>
+            <ignoredResourcePattern>.*\.java</ignoredResourcePattern>
+            <ignoredResourcePattern>THIRD-PARTY</ignoredResourcePattern>
+        </ignoredResourcePatterns>
+        <ignoredClassPatterns/>
+        <conflictingDependencies>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="commons-beanutils" groupId="commons-beanutils" type="jar"/>
+                    <dependency artifactId="commons-beanutils-core" groupId="commons-beanutils" type="jar"/>
+                    <dependency artifactId="commons-collections" groupId="commons-collections" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes>
+                    <class>org.apache.commons.collections.BufferUnderflowException</class>
+                    <class>org.apache.commons.collections.Buffer</class>
+                    <class>org.apache.commons.collections.ArrayStack</class>
+                    <class>org.apache.commons.collections.FastHashMap</class>
+                </classes>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="commons-beanutils" groupId="commons-beanutils" type="jar"/>
+                    <dependency artifactId="commons-beanutils-core" groupId="commons-beanutils" type="jar"/>
+                </dependencies>
+                <packages>
+                    <package>org.apache.commons.beanutils</package>
+                </packages>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="gcs-connector" groupId="com.google.cloud.bigdataoss" type="jar"/>
+                    <dependency artifactId="httpclient" groupId="org.apache.httpcomponents" type="jar"/>
+                    <dependency artifactId="httpclient5" groupId="org.apache.httpcomponents.client5" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>mozilla/public-suffix-list.txt</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="gax" groupId="com.google.api" type="jar"/>
+                    <dependency artifactId="gcs-connector" groupId="com.google.cloud.bigdataoss" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>dependencies.properties</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="aws-java-sdk-s3" groupId="com.amazonaws" type="jar"/>
+                    <dependency artifactId="sdk-core" groupId="software.amazon.awssdk" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>mime.types</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="flyway-database-oracle" groupId="org.flywaydb" type="jar"/>
+                    <dependency artifactId="flyway-mysql" groupId="org.flywaydb" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>org/flywaydb/database/version.txt</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="parquet-avro" groupId="org.apache.parquet" type="jar"/>
+                    <dependency artifactId="parquet-column" groupId="org.apache.parquet" type="jar"/>
+                    <dependency artifactId="parquet-hadoop" groupId="org.apache.parquet" type="jar"/>
+                </dependencies>
+                <packages>
+                    <package>shaded.parquet.it.unimi.dsi.fastutil</package>
+                </packages>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="gcs-connector" groupId="com.google.cloud.bigdataoss" type="jar"/>
+                    <dependency artifactId="opencensus-proto" groupId="io.opencensus" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>opencensus/proto/metrics/v1/metrics.proto</resource>
+                    <resource>opencensus/proto/trace/v1/trace_config.proto</resource>
+                    <resource>opencensus/proto/resource/v1/resource.proto</resource>
+                    <resource>opencensus/proto/trace/v1/trace.proto</resource>
+                    <resource>opencensus/proto/agent/metrics/v1/metrics_service.proto</resource>
+                    <resource>opencensus/proto/agent/common/v1/common.proto</resource>
+                    <resource>opencensus/proto/stats/v1/stats.proto</resource>
+                    <resource>opencensus/proto/agent/trace/v1/trace_service.proto</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="grpc-services" groupId="io.grpc" type="jar"/>
+                    <dependency artifactId="alluxio-shaded-client" groupId="org.alluxio" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>grpc/health/v1/health.proto</resource>
+                    <resource>grpc/reflection/v1alpha/reflection.proto</resource>
+                    <resource>grpc/binlog/v1/binarylog.proto</resource>
+                    <resource>grpc/channelz/v1/channelz.proto</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="annotations" groupId="com.google.android" type="jar"/>
+                    <dependency artifactId="alluxio-shaded-client" groupId="org.alluxio" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes>
+                    <class>android.annotation.SuppressLint</class>
+                    <class>android.annotation.TargetApi</class>
+                </classes>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="re2j" groupId="com.google.re2j" type="jar"/>
+                    <dependency artifactId="re2j" groupId="io.trino" type="jar"/>
+                </dependencies>
+                <packages>
+                    <package>com.google.re2j</package>
+                </packages>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false">
+                <dependencies>
+                    <dependency artifactId="alluxio-shaded-client" groupId="org.alluxio" type="jar"/>
+                    <dependency artifactId="protobuf-java" groupId="com.google.protobuf" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources>
+                    <resource>google/protobuf/duration.proto</resource>
+                    <resource>google/protobuf/api.proto</resource>
+                    <resource>google/protobuf/field_mask.proto</resource>
+                    <resource>google/protobuf/source_context.proto</resource>
+                    <resource>google/protobuf/empty.proto</resource>
+                    <resource>google/protobuf/type.proto</resource>
+                    <resource>google/protobuf/struct.proto</resource>
+                    <resource>google/protobuf/wrappers.proto</resource>
+                    <resource>google/protobuf/timestamp.proto</resource>
+                    <resource>google/protobuf/descriptor.proto</resource>
+                    <resource>google/protobuf/any.proto</resource>
+                </resources>
+                <resourcePatterns/>
+            </conflictingDependency>
+        </conflictingDependencies>
+        <ignoredDependencies>
+            <dependency artifactId="jruby-complete" groupId="org.jruby" type="jar"/>
+        </ignoredDependencies>
+    </configuration>
+    <results>
+        <result name="compile" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*changelog(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*\.html</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>about_files/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>plugin\.properties</ignoredResourcePattern>
+                <ignoredResourcePattern>.*\.java</ignoredResourcePattern>
+                <ignoredResourcePattern>THIRD-PARTY</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>^(.*\.)?.*\$.*$</ignoredClassPattern>
+                <ignoredClassPattern>^(.*\.)?package-info$</ignoredClassPattern>
+                <ignoredClassPattern>^(.*\.)?module-info$</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="runtime" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*changelog(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*\.html</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>about_files/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>plugin\.properties</ignoredResourcePattern>
+                <ignoredResourcePattern>.*\.java</ignoredResourcePattern>
+                <ignoredResourcePattern>THIRD-PARTY</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>^(.*\.)?.*\$.*$</ignoredClassPattern>
+                <ignoredClassPattern>^(.*\.)?package-info$</ignoredClassPattern>
+                <ignoredClassPattern>^(.*\.)?module-info$</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="test" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*changelog(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*\.html</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>about_files/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>plugin\.properties</ignoredResourcePattern>
+                <ignoredResourcePattern>.*\.java</ignoredResourcePattern>
+                <ignoredResourcePattern>THIRD-PARTY</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>^(.*\.)?.*\$.*$</ignoredClassPattern>
+                <ignoredClassPattern>^(.*\.)?package-info$</ignoredClassPattern>
+                <ignoredClassPattern>^(.*\.)?module-info$</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+    </results>
+</duplicate-finder-result>
